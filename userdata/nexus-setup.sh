@@ -1,5 +1,6 @@
 #!/bin/bash
-yum install java-1.8.0-openjdk.x86_64 wget -y   
+sudo apt-update -y
+sudo apt install openjdk-8-jdk wget -y   
 mkdir -p /opt/nexus/   
 mkdir -p /tmp/nexus/                           
 cd /tmp/nexus/
